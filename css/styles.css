@@ -1,0 +1,224 @@
+/* ----- ID Selectors ----- */
+#title {
+  background-color: #ff4c68;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  height: 750px;
+}
+
+#features {
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3% 5%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 3% 5%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  height: 20rem;
+  padding: 3% 5%;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  padding: 3% 5%;
+}
+
+/* ----- Tags Selectors ----- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+h3 {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* ----- Class Selector ----- */
+.container-fluid {
+  padding: 3% 7%;
+}
+
+/* --- Navigation Bar --- */
+.navbar {
+  padding: 0 0 100px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+/* --- Title Section --- */
+
+#title h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+
+/* --- Feature Section --- */
+.feature-icon {
+  color: #ef8172;
+  font-size: 4rem;
+  margin: 2rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-textbox {
+  padding: 7rem 3rem;
+}
+
+.feature-paragraph {
+  color: #868686
+}
+
+/* --- Title Section --- */
+
+.iphone-img {
+  transform: rotate(25deg);
+  position: absolute;
+  width: 65%;
+  padding-left: 65px;
+}
+
+/* --- Testimonials --- */
+
+.carousel-control-next, .carousel-control-prev {
+  width: 10%;
+}
+
+.testimonial-image {
+  padding: 10px;
+  width: 13%;
+  border-radius: 50%;
+  margin-bottom: 45px;
+
+}
+
+.testimonials-text {
+  line-height: 3rem;
+  padding: 7rem 8rem 3rem;
+}
+.testimonials-subtext {
+  padding: 8px;
+}
+
+.press-image {
+  width: 20%;
+  padding: 4%;
+}
+
+/* --- Pricing Section --- */
+
+.pricing-heading {
+  margin: 3rem 0 1rem 0;
+}
+
+.pricing-subheading {
+  margin-bottom: 3rem;
+}
+
+.pricing-box {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Helps with the medium size screen */
+.card-deck .card {
+  min-width: 220px;
+  margin: 15px;
+}
+
+/* --- CTA Section --- */
+
+.cta-heading {
+  padding: 3rem;
+}
+
+/* --- Footer Section --- */
+.icon-footer {
+  margin: 1rem;
+}
+
+.footer-text {
+  color: gray;
+}
+
+
+
+/* --- --- --- --- --- /* Media Queries /* --- --- --- --- --- */
+
+@media (max-width: 995px) {
+
+  #title {
+    height: 750px;
+  }
+
+  .iphone-img {
+    transform: rotate(35deg);
+    position: relative;
+    padding-top: 2rem;
+    width: 45%;
+    margin-left: 15rem;
+  }
+
+  #pricing {
+    text-align: center;
+    padding: 5rem 2rem;
+  }
+
+  .container-pricing {
+    padding: 0.5rem;
+  }
+
+}
+
+
+
+
+@media (max-width: 685px) {
+
+  #title {
+    height: 1100px;
+  }
+
+  .iphone-img {
+    transform: rotate(15deg);
+    position: relative;
+    padding-top: 3rem;
+    width: 75%;
+    margin-left: 0rem;
+  }
+
+  .container-pricing {
+    padding: 0.5rem;
+  }
+
+}
